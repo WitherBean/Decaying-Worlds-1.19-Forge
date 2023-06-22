@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "decayingworlds:block/wither_storm_command_block"
+    }
+}

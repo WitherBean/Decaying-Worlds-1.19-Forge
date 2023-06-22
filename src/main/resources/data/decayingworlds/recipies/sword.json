@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      " b ",
+      " s "
+  
+    ],
+    "key": {
+      "b":{ "item": "decayingworlds:sword_blade"},
+      "s":{ "item": "minecraft:stick"}
+    },
+    "result": {
+      "item": "minecraft:diamond_sword"
+    }
+  }

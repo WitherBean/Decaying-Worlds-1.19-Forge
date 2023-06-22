@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "cookingtime": 600,
+    "experience": 5.045213,
+    "ingredient": {
+        "item": "decayingworlds:sword_blade"
+    },
+    "result": "decayingworlds:sword_shard"
+}

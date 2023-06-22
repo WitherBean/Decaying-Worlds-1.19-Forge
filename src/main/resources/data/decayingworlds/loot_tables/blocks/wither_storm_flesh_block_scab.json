@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "decayingworlds:wither_storm_flesh_block_scab"
+                }
+            ]
+        }
+    ]
+}

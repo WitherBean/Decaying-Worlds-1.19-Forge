@@ -1,0 +1,196 @@
+{
+    "entity.corrupted_zombie.idle": {
+        "subtitle": "entity.corrupted_zombie.idle",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_zombie/idle1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_zombie/idle2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_zombie/idle3",
+                    "stream": true
+                    }
+        ]
+    },
+    "entity.corrupted_zombie.hurt": {
+        "subtitle": "entity.corrupted_zombie.hurt",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_zombie/hurt1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_zombie/hurt2",
+                "stream": true
+                }
+        ]
+    },
+    "entity.corrupted_creeper.hurt": {
+        "subtitle": "entity.corrupted_creeper.hurt",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_zombie/hurt1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_zombie/hurt2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_zombie/hurt3",
+                    "stream": true
+                    },
+                    {
+                        "name": "decayingworlds:corrupted_zombie/hurt4",
+                        "stream": true
+                        }
+        ]
+    },
+    "entity.corrupted_creeper.death": {
+        "subtitle": "entity.corrupted_creeper.death",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_creeper/death",
+			"stream": true
+            }
+        ]
+    },
+    "entity.corrupted_spider.idle": {
+        "subtitle": "entity.corrupted_spider.idle",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_spider/idle1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_spider/idle2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_spider/idle3",
+                    "stream": true
+                    },
+                    {
+                        "name": "decayingworlds:corrupted_spider/idle4",
+                        "stream": true
+                        }
+        ]
+    },
+    "entity.corrupted_spider.death": {
+        "subtitle": "entity.corrupted_spider.death",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_spider/death",
+			"stream": true
+            }
+        ]
+    },
+    "entity.corrupted_skeleton.idle": {
+        "subtitle": "entity.corrupted_skeleton.idle",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_skeleton/idle1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_skeleton/idle2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_skeleton/idle3",
+                    "stream": true
+                    }
+        ]
+    },
+    "entity.corrupted_skeleton.hurt": {
+        "subtitle": "entity.corrupted_skeleton.hurt",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_skeleton/hurt1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_skeleton/hurt2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_skeleton/hurt3",
+                    "stream": true
+                    },
+                    {
+                        "name": "decayingworlds:corrupted_skeleton/hurt4",
+                        "stream": true
+                        }
+        ]
+    },
+    "entity.corrupted_skeleton.death": {
+        "subtitle": "entity.corrupted_skeleton.death",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_skeleton/death",
+			"stream": true
+            }
+        ]
+    },
+    "entity.corrupted_zombie.death": {
+        "subtitle": "entity.corrupted_zombie.death",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_zombie/death",
+			"stream": true
+            }
+        ]
+    },
+    "entity.corrupted_villager.death": {
+        "subtitle": "entity.corrupted_villager.death",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_villager/death",
+			"stream": true
+            }
+        ]
+    },
+    "entity.corrupted_villager.idle": {
+        "subtitle": "entity.corrupted_villager.idle",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_villager/idle1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_villager/idle2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_villager/idle3",
+                    "stream": true
+                    }
+        ]
+    },
+    "entity.corrupted_villager.hurt": {
+        "subtitle": "entity.corrupted_villager.hurt",
+        "sounds": [
+            {
+            "name": "decayingworlds:corrupted_villager/hurt1",
+			"stream": true
+            },
+            {
+                "name": "decayingworlds:corrupted_villager/hurt2",
+                "stream": true
+                },
+                {
+                    "name": "decayingworlds:corrupted_villager/hurt3",
+                    "stream": true
+                    },
+                    {
+                        "name": "decayingworlds:corrupted_villager/hurt4",
+                        "stream": true
+                        }
+        ]
+    }
+    
+}
