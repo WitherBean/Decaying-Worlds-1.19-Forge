@@ -12,7 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.witherbean.decayingworlds.DecayingWorlds;
-import net.witherbean.decayingworlds.entity.ModEntities;
+//import net.witherbean.decayingworlds.entity.ModEntities;
 
 public class ModItems {
 

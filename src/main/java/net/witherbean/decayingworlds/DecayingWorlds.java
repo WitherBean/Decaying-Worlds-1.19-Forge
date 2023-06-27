@@ -24,15 +24,11 @@ public class DecayingWorlds
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModEntities.register(modEventBus);
-        ModConfiguredFeatures(modEventBus);
+        ModEntities.ENTITIES.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void ModConfiguredFeatures(IEventBus modEventBus) {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

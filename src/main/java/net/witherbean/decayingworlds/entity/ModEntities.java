@@ -1,27 +1,21 @@
 package net.witherbean.decayingworlds.entity;
 
-import net.minecraft.resources.ResourceLocation;
+import net.witherbean.decayingworlds.DecayingWorlds;
+import net.witherbean.decayingworlds.entities.witherstorm.WitherStorm;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraft.world.entity.EntityType.Builder;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.witherbean.decayingworlds.DecayingWorlds;
-import net.witherbean.decayingworlds.entities.CorruptedSkeleton;
-import net.witherbean.decayingworlds.entities.CorruptedSpider;
-import net.witherbean.decayingworlds.entities.CorruptedVillager;
-import net.witherbean.decayingworlds.entities.CorruptedZombie;
 
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, DecayingWorlds.MODID);
 
-    public static final RegistryObject<EntityType<CorruptedZombie>> CORRUPTEDZOMBIE = ENTITIES.register("corrupted_zombie", () ->EntityType.Builder.of(CorruptedZombie::new, MobCategory.MONSTER).sized(0.6f, 1.95f).build(new ResourceLocation(DecayingWorlds.MODID, "corrupted_zombie").toString()));
-    //public static final RegistryObject<EntityType<CorruptedSkeleton>> CORRUPTEDSKELETON = ENTITIES.register("corrupted_skeleton", () ->EntityType.Builder.of(CorruptedZombie::new, MobCategory.MONSTER).sized(0.6f, 1.95f).build(new ResourceLocation(DecayingWorlds.MODID, "corrupted_skeleton").toString()));
-    //public static final RegistryObject<EntityType<CorruptedVillager>> CORRUPTEDVILLAGER = ENTITIES.register("corrupted_villager", () ->EntityType.Builder.of(CorruptedZombie::new, MobCategory.MONSTER).sized(0.6f, 1.95f).build(new ResourceLocation(DecayingWorlds.MODID, "corrupted_villager").toString()));
-    //public static final RegistryObject<EntityType<CorruptedSpider>> CORRUPTEDSPIDER = ENTITIES.register("corrupted_spider", () ->EntityType.Builder.of(CorruptedZombie::new, MobCategory.MONSTER).sized(0.6f, 1.95f).build(new ResourceLocation(DecayingWorlds.MODID, "corrupted_spider").toString()));
+    public static final EntityType<WitherStorm> WITHERSTORM = register("wither_storm", EntityType.Builder.<WitherStorm>of(WitherStorm::new, MobCategory.MONSTER).sized(5F, 14F).clientTrackingRange(10));
 
-    public static void register(IEventBus modEventBus) {
-        ENTITIES.register(modEventBus);
+    private static EntityType<WitherStorm> register(String string, Builder<WitherStorm> clientTrackingRange) {
+        return null;
     }
 }
